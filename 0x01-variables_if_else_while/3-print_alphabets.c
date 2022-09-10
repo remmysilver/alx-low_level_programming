@@ -7,21 +7,21 @@
 
 int main(void)
 {
+	int i, j;
 
-		int n;
+	i = 97;
+	j = 65;
 
-
-
-			srand(time(0));
-
-				n = rand() - RAND_MAX / 2;
-
-					if (n == 0)
-						printf("%d is zero\n", n);
-					else if (n < 0)
-						printf("%d is negative\n", n);
-					else
-						printf("%d is positive\n", n);
-					return (0);
-
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	while (j < 91)
+	{
+		putchar(j);
+		j++;
+	}
+	putchar(10);
+	return (0);
 }
