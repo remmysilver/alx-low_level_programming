@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-int get_digit(char c)
+int get_digit(char c);
 int find_len(char *str);
 char *create_xarray(int size);
 char *iterate_zeroes(char *str);
