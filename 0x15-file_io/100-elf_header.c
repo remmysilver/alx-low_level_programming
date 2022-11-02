@@ -208,7 +208,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 		printf("EXEC (Executable file)\n");
 		break;
 	case ET_DYN:
-		print("DYN (Shared object file)\n");
+		printf("DYN (Shared object file)\n");
 		break;
 	case ET_CORE:
 		printf("CORE (Core file)\n");
